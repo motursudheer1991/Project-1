@@ -1,0 +1,207 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.p1 {
+    font-size: 20px;
+}
+.p2 {
+    font-size: 25px;
+}
+.p3 {
+    font-size: 30px;
+}
+.p4 {
+    font-size: 35px;
+}
+.p5 {
+    font-size: 40px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+}
+/* .sticky {
+    position: fixed;
+    z-index: 1000;
+    top: 0px;
+    
+} */
+.bgimage-header {
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner_full_width {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+
+.banner {
+    background-image: url(./images/birds-eye-1500w.jpg);
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+    
+}
+.logo {
+    height: 50px;
+    width: 150px;
+    padding: 20px 10px;
+}
+
+.dropdown-button {
+    list-style-type: none;
+    color: black;
+}
+
+.dropdown-content {
+    display: list-item;
+}
+
+.menu-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown-items {
+    padding: 15px 20px;
+    background-color: white;
+    display: block;
+    margin: 0.5px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-button:hover {
+    background-color: yellow;
+}
+
+.dropdown-items:hover {
+    background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.set-2 {
+    padding-left: 470px;
+    gap: 40px;
+}
+.cart {
+    padding: 40px 0px;
+}
+
+footer {
+    background-color: #D7D7D7;
+    color: #474747;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer-heading{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    
+}
+.footer-body {
+    display: grid;
+    grid-template-columns: repeat(4,43% 20% 20% 10%);
+}
+.section-1-image {
+    width: auto;
+    height: 40px;
+    padding-top: 5px;
+}
+
+.section-2 {
+    padding-right:25px;
+    padding-top: 5px;
+    padding-left: 10px;
+    text-align: justify;
+}
+ol {
+    list-style-type: none;
+}
+li {
+    padding: 5px 0px;
+}
+.footer-logo-matter-flex {
+    display: flex;
+}
+.all-rights-reserved{
+    padding: 20px 10px;
+    font-size: 14px;
+}
+
+.dummy-spacer{
+    height: 15px;
+    background-color: transparent;
+}
+.navigation-text {
+    text-decoration: none;
+    color: black;
+    padding: 0px 0px 0px 150px;
+}
+
+.nav-text-color {
+    color: #979492;
+}
+.section-faq {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px 150px;
+    gap: 20px;
+}
+.left-content {
+    padding-right: 50px;
+}
+.right-content {
+    padding-right: 50px;
+}
+.faq-heading {
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #4B4B4B;
+    padding-top: 30px;
+    margin-bottom: -60px;
+}
+
+.faq-question {
+    font-size: 25px;
+    color: #4B4B4B;
+    padding: 80px 0px 0px 0px;
+    text-align: justify;
+}
+.faq-answer {
+    color: #979798 ;
+    font-size: 16px;
+    padding: 10px 0px 0px 0px;
+    text-align: justify;
+}
