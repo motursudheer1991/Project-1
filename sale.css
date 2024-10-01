@@ -356,9 +356,18 @@ li {
     background-color: #FFFFFF;
 }
 
+.grid-box-image-parent {
+    overflow: hidden;
+}
+
 .grid-box-image-part {
     width: 392.84px;
     height: 300px;
+}
+
+.grid-box-image-part:hover {
+    transition: 2s;
+    transform: scale(1.3);
 }
 
 .dots-text {
