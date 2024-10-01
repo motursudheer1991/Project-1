@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body {
+    background-color: #f7f7f7;
+}
+
 .p1 {
     font-size: 20px;
 }
@@ -174,9 +178,7 @@ li {
     gap: 20px;
 }
 .left-content {
-    background-color:#FFFFFF;
-    border: rgb(255, 252, 252) 1px solid;
-    margin-bottom: -60px;
+   
 }
 .bg-colour {
 
@@ -208,7 +210,7 @@ li {
     position: relative;
     left: 570px;
     bottom: 90px;
-    /* border: 0.1px #d1cdcb solid; */
+    border: 0.1px #d1cdcb solid;
     border-radius: 100px;
     height: 40px;
     width: 40px;
