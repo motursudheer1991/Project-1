@@ -177,20 +177,21 @@ li {
     padding: 20px 150px;
     gap: 20px;
 }
-.left-content {
-   
-}
-.bg-colour {
-
-    
-}
-.right-content {    
-}
 
 .grid-image {
     height: 350px;
-    width: 578px;
+    width: 578px;  
     
+}
+.overflow-hidden {
+    background-color: white;
+    height: 350px;
+    width: 578px;
+    overflow: hidden;
+}
+.grid-image:hover {
+    transform: scale(1.2);
+    transition: 2s;
 }
 
 .box-text-heading {

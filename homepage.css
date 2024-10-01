@@ -211,23 +211,27 @@ ul {
 
 .Grid-third-line{
     display: grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:33.33% 33.33% 33.33%;
     row-gap: 30px;
     padding-bottom: 40px;
-    background-color: #F7F7F7;
 }
 .Grid-box-third-line {
     background-color: white;
     margin: 0px 20px ;
+    overflow: hidden;
 }
 .Grid-box-third-line-image {
     width: 400px;
     margin-top: -70px;
-    background-color: white;    
+}
+.Grid-box-third-line-image:hover {
+    transition: 2s;
+    transform: scale(1.1);
 }
 .sale-badge {
     position: relative;
     left: 400px;
+    overflow: hidden;
 }
 .empty-sale-badge {
     height: 73px;
