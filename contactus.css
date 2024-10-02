@@ -1,0 +1,199 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+.p1 {
+    font-size: 20px;
+}
+.p2 {
+    font-size: 25px;
+}
+.p3 {
+    font-size: 30px;
+}
+.p4 {
+    font-size: 35px;
+}
+.p5 {
+    font-size: 40px;
+}
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+.header-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+}
+
+.bgimage-header {
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.banner_full_width {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+
+.banner {
+    background-image: url(./images/birds-eye-1500w.jpg);
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+    
+}
+.logo {
+    height: 50px;
+    width: 150px;
+    padding: 20px 10px;
+}
+
+.dropdown-button {
+    list-style-type: none;
+    color: black;
+}
+
+.dropdown-content {
+    display: list-item;
+}
+
+.menu-items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.dropdown-items {
+    padding: 15px 20px;
+    background-color: white;
+    display: block;
+    margin: 0.5px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+}
+
+.dropdown-button:hover {
+    background-color: yellow;
+}
+
+.dropdown-items:hover {
+    background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.set-2 {
+    padding-left: 470px;
+    gap: 40px;
+}
+.cart {
+    padding: 40px 0px;
+}
+.navigation-text {
+    text-decoration: none;
+    color: black;
+    padding: 0px 0px 0px 150px;
+}
+
+.nav-text-color {
+    color: #979492;
+}
+
+.nav-padding {
+    padding: 30px 0px 20px 50px;
+}
+
+.content-parent {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0px 200px;
+}
+
+.say-hello-text {
+    color: #494949;
+    font-size: 50px;
+    font-weight:800;
+    padding: 50px 0px 0px 0px;
+}
+
+.furniture-id-text {
+    font-size: 25px;
+    color: #494949;
+    padding: 10px 0px 100px 0px;
+}
+
+.drop-us-text {
+    color: #494949;
+    padding: 10px 0px 10px 0px;
+}
+
+.address-Name-text {
+    font-size: 18px;
+    padding: 20px 0px 0px 0px;
+}
+
+.address-text {
+    color: #494949;
+    padding: 10px 0px 0px 0px;
+}
+.address-Name-text-1 {
+    font-size: 18px;
+    padding: 120px 0px 0px 0px;
+}
+
+.icons-parent {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    padding: 20px 0px 100px 0px;
+}
+
+.social-media-icons-parent {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    background-color: black;
+    
+}
+.social-media-icons {
+    height: 30px;
+    width: 30px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 6px;
+}
+
+.social-media-icons-parent:hover {
+    background-color: rgb(243, 243, 5)
+}
+
+.contactus-image {
+    height: 36%;
+    width: auto;
+}
